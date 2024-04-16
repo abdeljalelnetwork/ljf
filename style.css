@@ -1,0 +1,177 @@
+/*
+Theme Name: Mon Thème
+Description: Description de votre thème
+Author: Votre Nom
+Version: 1.0
+*/
+
+/* Styles CSS */
+
+h1
+{
+    text-align: center;
+  font-family: "Merienda";
+  font-size: x-large;
+}
+
+
+h2
+{
+    font-family: "Merienda";
+    font-size: medium;
+    text-align: center;
+}
+
+/* Réinitialisation des marges et des rembourrages */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Merienda";
+    font-size: small;
+    text-align: center;
+}
+
+.menu {
+    background-color: #B1DE53;
+    
+
+    
+}
+
+.menu ul {
+    list-style-type: none;
+    
+
+   
+}
+
+
+.menu ul li {
+    display: inline-block;
+    margin-top: -50px;
+}
+
+.menu ul li a {
+    display: block;
+padding: 15px;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s;
+
+}
+
+.menu ul li a:hover {
+    background-color: #555;
+ 
+}
+
+.banner {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    background-color: #333;
+    font-family: "Merienda";
+    font-size: x-large;
+    border : 2px solid #000000;
+    
+   
+    
+}
+
+.scrolling-banner ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    animation: scroll 10s linear infinite;
+}
+
+.scrolling-banner ul li {
+    margin-right: 20px;
+    color: #fff;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+* Styles communs */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.banner {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.feature {
+    flex-basis: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    border : 2px solid #000000;
+}
+
+header
+{
+    background-color: #B1DE53;
+}
+
+footer
+{
+margin-top: 50px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer h4 {
+    color: #fff;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li a {
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Exemple de style pour Font Awesome - assurez-vous d'inclure la bibliothèque dans votre projet */
+.fa-facebook-f:before { content: "\f09a"; }
+.fa-twitter:before { content: "\f099"; }
+.fa-instagram:before { content: "\f16d"; }
+.fa-linkedin:before { content: "\f0e1"; }
+
